@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>title</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+   <audio id="home" src="HomeSound.mp3"></audio>
+  <audio id="Earsketch" src="KnowingEarsketch.mp3"></audio>
+  <audio id="fitMedia" src="fitMediaSound.mp3"></audio>
+  <audio id="debugging" src="debugging.mp3"></audio>
+  <div id="menuBar">
+    <div>
+      <a href="SongTutorial.html" onclick="document.getElementById('home').play()">Home</a>
+    </div>
+    <div><a href="GettingToKnowTheWorkspace.html" onclick="document.getElementById('Earsketch').play()">Getting to Know Earsketch</a>
+    </div>
+    <div>
+    <a href="fitMedia.html" onclick="document.getElementById('fitMedia').play()">Using fitMedia()</a>
+    </div>
+    <a href="Effects.html" onclick="">Effects</a>
+    <div>
+    <a href="Debugging.html" onclick="document.getElementById('debugging').play()">Debugging</a>
+    </div>
+    <a href="FinalProduct.html" onclick=""> Final Product</a>
+    <a href="https://github.com/stellal5059/IndependentStudyBlog" onclick="">Blog</a>
+    <!--Opens up new window to Github-->
+  </div>
+<h1>Basics to Earsketch</h1>
+<audio controls>
+      <source src="fitMediaSound.mp3">
+    </audio>
+    <p>
+      In case you didn't hear the sound when the link was clicked, the above sound is one of the smaller sounds I have created with Earsketch.
+    </p>
+<p><code>setTempo()</code>:Tells the computer how fast you want the song to play.</p>
+<p><code>fitMedia()</code>:Where the clip, track, start and end is declared.</p>
+<p><code>init()</code>:Tells the computer to start playing the song.</p> 
+<p><code>finish()</code>:Lets the computer know that the song is over.</p>
+<p><code>setEffect()</code>:How to add musical effects to your song such as fading in and out and setting song delays. Takes in the arguments of Track Number, Effect Name, Effect Parameter, Effect Start Value, Effect Start Location, Effect End Value and Effect End Location </p>
+  
+  <p>Earsketch uses two languages, JavaScript or Python, while learning how to make music I decided to use JavaScript. This is a language that was already familiar using. When loading up Earsketch I realized that you do not need much coding knowledge, you should know basics but they already teach you how what you need to know in order to create a song.</p>
+  </body>
+</html>
